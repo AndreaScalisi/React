@@ -1,0 +1,36 @@
+html, body, #root, .slider {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+  color: #FF123A;
+  cursor: pointer;
+  font-size: 2rem;
+  position: fixed;
+  top: 50%;
+}
+
+.slide-arrow.right {
+  right: 1rem;
+}
+
+.slide-arrow.left {
+  left: 1rem;
+}
+
+#video {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+
+}
+
